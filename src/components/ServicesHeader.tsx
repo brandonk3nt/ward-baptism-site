@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ActionButton from "./ActionButton";
 
 type ServiceHeaderProps = {
   heroImage?: string;
@@ -25,10 +24,10 @@ export default function ServicesHeader({
         height={556}
       />
       <div key="title-credits" className="church-font text-center p-1 py-2">
-        <p className="text-2xl">Dana Ranch Ward</p>
-        <p className="text-3xl">Rhodes Kent</p>
-        <p className="text-3xl">Baptism</p>
+        <p className="text-4xl">Rhodes Kent</p>
+        <p className="text-4xl">Baptism</p>
         <p className="text-2xl">May 16, 2026</p>
+        <p className="text-2xl">Dana Ranch Ward</p>
       </div>
 
       <hr className="h-px my-8 bg-gray-400 border-0" />
