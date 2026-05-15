@@ -25,7 +25,7 @@ export default function ServicesHeader({
       /> */}
       <div key="title-credits" className="church-font text-center p-1 py-2">
         <p className="text-2xl">Baptism of</p>
-        <p className="text-4xl py-4">Rhodes Kent</p>
+        <p className="text-4xl py-1">Rhodes Kent</p>
         <p className="text-2xl">May 16, 2026</p>
       </div>
 
