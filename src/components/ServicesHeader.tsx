@@ -32,12 +32,6 @@ export default function ServicesHeader({
         <p className="text-2xl">May 16, 2026</p>
       </div>
 
-      <div className="pt-4">
-        <ActionButton
-          link="https://zoom.us/j/98508434243"
-          text="Join via broadcast"
-        />
-      </div>
       <hr className="h-px my-8 bg-gray-400 border-0" />
     </>
   );
