@@ -25,9 +25,9 @@ export default function Page() {
 
         <LineItemBold middle="Baptism" />
 
-        <LineItemBold middle="Confirmation" />
-
         <LineItem left="Talk on the Holy Ghost" right="Brixton Kent" />
+
+        <LineItemBold middle="Confirmation" />
 
         <LineItem left="Closing Prayer" right="Graham Kent" />
       </div>
