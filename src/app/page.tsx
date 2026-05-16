@@ -18,13 +18,13 @@ export default function Page() {
           <div className="flex font-thin justify-center font-sm truncate zero-auto max-75">* * *</div>
         </div>
 
-        <LineItem left="Talk on Baptism" right="Jaxon Kent" />
-
-        <LineItem left="Music Number" right="Rhodes' Brothers" />
-
         <LineItem left="Opening Song" right="Baptism" />
 
         <LineItem left="Opening Prayer" right="Lux Heywood" />
+
+        <LineItem left="Talk on Baptism" right="Jaxon Kent" />
+
+        <LineItem left="Music Number" right="Rhodes' Brothers" />
 
         <LineItemBold middle="Baptism" />
 
