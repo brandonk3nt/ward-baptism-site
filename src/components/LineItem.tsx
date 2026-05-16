@@ -11,9 +11,11 @@ const LineItem: FC<LineItemProps> = ({ left, middle, right, link }) => {
   const content = (
     <div className="py-4">
       <div className="flex">
-        <div className="flex-none px-1">{left}</div>
-        <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18 truncate"></div>
-        <div className="flex-none px-1 text-right">{right}</div>
+        {left && <div className="flex-none px-1">{left}</div>}
+        {left && right && (
+          <div className="flex-1 mb-1 border-b border-dashed border-stone-300 height-18 truncate"></div>
+        )}
+        {right && <div className="flex-none px-1 text-right">{right}</div>}
       </div>
       {middle && (
         <div className="text-center font-sm truncate zero-auto max-75">
