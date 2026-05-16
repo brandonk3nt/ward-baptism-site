@@ -32,7 +32,7 @@ export default function Page() {
 
         <LineItemBold middle="Confirmation" />
 
-   <LineItem left="Opening Song" right="I'm trying to be like Jesus" />
+   <LineItem left="Closing Song" right="I'm trying to be like Jesus" />
         <LineItem left="Closing Prayer" right="Graham Kent" />
       </div>
       <ServicesFooter />
