@@ -13,7 +13,10 @@ export default function Page() {
         <LineItemLeadership left="Conducting" right="Joe Capps" />
         <LineItemLeadership left="Pianist" right="Sherie Kent" />
         <LineItemLeadership left="Chorister" right="Valerie Heywood" />
-        <LineItem middle="***" />
+
+        <div className="pt-4">
+          <div className="flex text-center font-sm truncate zero-auto max-75">***</div>
+        </div>
 
         <LineItem left="Talk on Baptism" right="Jaxon Kent" />
 
