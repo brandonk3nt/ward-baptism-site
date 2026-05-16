@@ -6,7 +6,7 @@ interface LineItemProps {
 
 const LineItem: FC<LineItemProps> = ({ middle }) => {
   return (
-    <div className="text-center py-8 my-4 rounded bg-toupe-300">
+    <div className="text-center py-8 my-4 rounded bg-olive-400">
       <em className="font-semibold text-lg">{middle}</em>
     </div>
   );
