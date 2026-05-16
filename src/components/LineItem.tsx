@@ -1,9 +1,9 @@
 import { FC } from "react";
 
 interface LineItemProps {
-  left: string;
+  left?: string;
   middle?: string;
-  right: string;
+  right?: string;
   link?: string; // Optional link property
 }
 

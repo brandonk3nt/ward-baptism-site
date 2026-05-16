@@ -13,6 +13,7 @@ export default function Page() {
         <LineItemLeadership left="Conducting" right="Joe Capps" />
         <LineItemLeadership left="Pianist" right="Sherie Kent" />
         <LineItemLeadership left="Chorister" right="Valerie Heywood" />
+        <LineItem middle="***" />
 
         <LineItem left="Talk on Baptism" right="Jaxon Kent" />
 
