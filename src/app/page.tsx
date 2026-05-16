@@ -2,23 +2,31 @@ import LineItem from "@/components/LineItem";
 import LineItemBold from "@/components/LineItemBold";
 import ServicesFooter from "@/components/ServicesFooter";
 import ServicesHeader from "@/components/ServicesHeader";
+import LineItemLeadership from "@/components/LineItemLeadership";
 
 export default function Page() {
   return (
     <div className="w-full h-full">
       <ServicesHeader heroImage="/img/jesus-baptism.jpg" />
       <div id="services" className="mx-2">
+        <LineItemLeadership left="Presiding" right="Bishop Shumway" />
+        <LineItemLeadership left="Conducting" right="Joe Capps" />
+        <LineItemLeadership left="Pianist" right="Sherie Kent" />
+        <LineItemLeadership left="Chorister" right="Valerie Heywood" />
+
+        <LineItem left="Talk on Baptism" right="Jaxon Kent" />
+
+        <LineItem left="Music Number" right="Rhodes' Brothers" />
 
         <LineItem left="Opening Song" right="Baptism" />
+
         <LineItem left="Opening Prayer" right="Lux Heywood" />
 
         <LineItemBold middle="Baptism" />
 
         <LineItemBold middle="Confirmation" />
 
-        <LineItem left="Talk on Baptism" right="Chris Cooley" />
-        <LineItem left="Talk on the Holy Ghost" right="Chris Cooley" />
-        <LineItem left="Music Number" right="Rhodes' Brothers" />
+        <LineItem left="Talk on the Holy Ghost" right="Brixton Kent" />
 
         <LineItem left="Closing Prayer" right="Graham Kent" />
       </div>
