@@ -15,7 +15,7 @@ export default function Page() {
         <LineItemLeadership left="Chorister" right="Valerie Heywood" />
 
         <div className="pt-4">
-          <div className="flex justify-center font-sm truncate zero-auto max-75">***</div>
+          <div className="flex font-thin justify-center font-sm truncate zero-auto max-75">* * *</div>
         </div>
 
         <LineItem left="Talk on Baptism" right="Jaxon Kent" />
